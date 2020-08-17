@@ -1,0 +1,110 @@
+/*Colors*/
+
+
+
+body{
+  margin: 0;
+  padding:0;
+  background-color: #ffffff;
+  font-weight:500;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:0 15px;
+}
+ul{
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+*{
+    box-sizing:border-box;
+}
+a{
+  text-decoration:none;
+  color:var(--mainColor);
+}
+/* Создание переменной */
+:root{
+  --mainColor:#6699CC;
+  --light: #FFFFFF ;
+  --redColor: #D40000 ; 
+  --pinkColor: #D4A2CE;
+  --darkColor: #181818;
+  --greyColor: #c3c3c3 ;
+  --lightgreyColor: #DBFF4B;
+  --darkblueColor: #2E2D88;
+}
+/* Header styls */
+.flex-container{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+header{
+  height: 80px;
+  padding:20px 0;
+
+}
+.header-menu{
+  width: 60%;
+}
+.navigation{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+}
+.logo{
+  width: 10%;
+  left:50%;
+  vertical-align: center;
+  display:inline-block;
+
+}
+.flex-container{
+  align-items:center;
+}
+.cart-info{
+  position:relative;
+  font-size:15px;
+  color: var(--darkblueColor);
+  margin-right: 5px;
+  text-align:center;
+}
+img{
+  max-width:100%;
+  height: auto;
+}
+.count{
+
+  position: absolute;
+  top:60px;
+  right:85px;
+  background-color:#fff;
+  border: 1px solid var(--darkblueColor);
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size:12px;
+  text-align: center;
+  line-height: 12px;
+  font-weight: bold;
+  color:var(--darkblueColor);
+
+}
+.current-menu-item{
+  transition: color .25s ease;
+  color:var(--redColor);
+}
+
+body{
+  background-color:blue{
+    h1{
+    color: var(--redColor);
+    font-size:50px;
+    margin-left:100px;
+    
+  };
+}
